@@ -1,0 +1,30 @@
+div.formAdcConta{
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ddd;
+	padding: 25px;
+	background-color: #f5f5f5;
+	width: 100%;
+	border-right: 4px solid #444;
+	border-bottom: 4px solid #444;
+	border-radius: 0px 7px 7px 0em;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 450px) {
+	div.formAdcConta{
+		width: 80%;
+	}
+}
+
+@media (min-width: 640px) {
+	div.formAdcConta{
+		width: 70%;
+	}
+}
+
+@media (min-width: 1018px) {
+	div.formAdcConta{
+		width: 450px;
+	}
+}

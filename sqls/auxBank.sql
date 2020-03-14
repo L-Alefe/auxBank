@@ -1,0 +1,37 @@
+CREATE TABLE IF NOT EXISTS usuario(
+	nome VARCHAR(50) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	senha VARCHAR(10) NOT NULL,
+	renda INT(5) NOT NULL,
+	id INT NOT NULL AUTO_INCREMENT,
+	PRIMARY KEY(id)
+);
+CREATE TABLE IF NOT EXISTS cartao(
+	numero VARCHAR(19) NOT NULL,
+	limite INT(5) NOT NULL,
+	id INT NOT NULL AUTO_INCREMENT,
+	id_usuario INT(4) NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY (id_usuario) REFERENCES usuario(id)
+);
+CREATE TABLE IF NOT EXISTS contaBancaria(
+	numero VARCHAR(19) NOT NULL,
+	tipo VARCHAR(8) NOT NULL,
+	saudo VARCHAR(5) NOT NULL,
+	banco VARCHAR(20) NOT NULL,
+	id INT NOT NULL AUTO_INCREMENT,
+	id_usuario INT(4) NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY (id_usuario) REFERENCES usuario(id)
+);
+CREATE TABLE IF NOT EXISTS pagamentoComum(
+	titulo VARCHAR(50) NOT NULL,
+	prazo VARCHAR(10) NOT NULL,
+	valor INT(5) NOT NULL,
+	importante VARCHAR(3),
+	numeroCartao VARCHAR(25),
+	id INT NOT NULL AUTO_INCREMENT,
+	id_usuario INT(4) NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY (id_usuario) REFERENCES usuario(id)
+);

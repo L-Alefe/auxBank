@@ -1,0 +1,70 @@
+.divMenu{
+	background-color: #f5f5f5;
+	border: 1px solid #dfdfdf;
+}
+
+.noCentro{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card{
+	border: 1px solid #ccc;
+	width: 90%;
+}
+
+@media (max-width: 340px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.btnBank{
+	background-color: #111;
+	color: #888;
+	padding: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btnBank:hover{
+	background-color: #222;
+}
+
+ul.meuDrop{
+	background-color: #f5f5f5;
+	font-weight: bold;
+	border: none;
+}
+
+.espacoHover{
+	color: #111;
+	font-weight: bold;
+	
+}
+
+.espacoHover:hover{
+	background-color: #dfdfdf;
+	color: #888;
+}
+
+.subSubMenu{
+	color: #888;
+}
+
+.subSubMenu:hover{
+	background-color: #cfcfcf;
+	color: #888;
+}
+
+a.meuLiA{
+	color: #111;
+}
+
+.divMenuMobile{
+	background-color: #f5f5f5;
+	border: 1px solid #dfdfdf;
+}
+
+

@@ -1,0 +1,114 @@
+body{
+	background-color: #eee;
+}
+.rodape{
+	background-color: #f5f5f5;
+	padding: 30px;
+	color: #111;
+	border: 1px solid #dfdfdf;
+}
+
+.meuForm{
+	background-color: #efefef;
+	margin-left: auto;
+    	margin-right: auto;
+   	width: 280px;
+}
+
+.textoCentro{
+	text-align: center;
+}
+
+span.raiz{
+	color: #1779ba;
+	font-weight: bold;
+}
+
+span.raizCima{
+	color: #ddb400;
+	font-weight: bold;
+}
+
+.div-conteudo {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+}
+
+div.folha{
+	padding: 25px;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-right: 4px solid #333;
+	border-radius: 0px 50px 0px 0px;
+}
+
+div.folha1{
+	padding: 25px;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-right: 4px solid #333;
+	border-radius: 0px 0px 50px 0px;
+}
+
+div.folha3{
+	padding: 15px;
+	background-color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	height: auto;
+}
+
+@media (min-width: 576px) {
+  .div-conteudo {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-conteudo {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .div-conteudo {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .div-conteudo {
+    max-width: 1100px;
+  }
+}
+
+table.minhaTabela{
+	border-top: 3px solid #444;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #444;
+}
+
+p{
+	color: #333;
+}
+
+span.s{
+	color: #666;
+}
+
+.cartao{
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
